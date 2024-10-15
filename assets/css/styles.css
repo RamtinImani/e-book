@@ -94,3 +94,33 @@ img {
   max-width: 100%;
   height: auto;
 }
+/*=============== THEME ===============*/
+/*========== Variables Dark theme ==========*/
+
+/*========== 
+	Color changes in some parts of 
+	the website, in dark theme
+==========*/
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+  max-width: 1220px;
+  padding-inline: 2.4rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  gap: 2.4rem;
+}
+.section {
+  padding-block: 8rem 1.6rem;
+}
+.section__title {
+  text-align: center;
+  font-size: var(--h1-font-size);
+  font-family: var(--second-font);
+  margin-bottom: 3.2rem;
+}
+.main {
+  overflow: hidden; /* For animation ScrollReveal */
+}
