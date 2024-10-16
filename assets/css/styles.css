@@ -370,3 +370,20 @@ img {
 .button:hover {
   box-shadow: 0 4px 32px hsla(230, 72%, 32%, 0.4);
 }
+/*=============== SERVICES ===============*/
+.services__container {
+  row-gap: 4.8rem;
+}
+.services__card {
+  text-align: center;
+}
+.services__card i {
+  display: block;
+  font-size: 4.8rem;
+  color: var(--first-color);
+  margin-bottom: 1.6rem;
+}
+.services__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.8rem;
+}
