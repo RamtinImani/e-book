@@ -357,3 +357,16 @@ img {
 .swiper-slide-duplicate-active {
   scale: 1;
 }
+/*=============== BUTTON ===============*/
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  font-weight: var(--font-semi-bold);
+  padding: 1.6rem 2.4rem;
+  transition: box-shadow 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow: 0 4px 32px hsla(230, 72%, 32%, 0.4);
+}
