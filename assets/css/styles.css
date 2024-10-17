@@ -387,3 +387,79 @@ img {
   font-size: var(--h3-font-size);
   margin-bottom: 0.8rem;
 }
+/*=============== FEATURED ===============*/
+/* .featured {
+} */
+/* .featured__container {
+}
+.featured__swiper {
+} */
+.featured__card {
+  position: relative;
+  text-align: center;
+  padding: 3.2rem;
+  background-color: var(--container-color);
+  border: 2px solid var(--border-color);
+  transition: border 0.3s, background-color 0.3s;
+  overflow: hidden;
+}
+/* hover effect on featured card by myself */
+.featured__card:hover {
+  border: 2px solid var(--first-color);
+}
+.featured__img {
+  width: 15rem;
+  margin: 0 auto 1rem;
+}
+.featured__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 0.8rem;
+}
+.featured__prices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+  margin-bottom: 2rem;
+}
+.featured__discount {
+  color: var(--title-color);
+}
+.featured__price {
+  font-size: var(--small-font-size);
+  text-decoration: line-through;
+}
+.featured__actions {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  top: 3.2rem;
+  right: -2.4rem;
+  transition: right 0.4s;
+}
+.featured__actions button {
+  background: none;
+  font-size: 2rem;
+  color: var(--first-color);
+  cursor: pointer;
+}
+.featured__card:hover .featured__actions {
+  right: 2.4rem;
+}
+/* Swiper class */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: "";
+}
+.swiper-button-prev,
+.swiper-button-next {
+  width: initial;
+  height: initial;
+  background-color: var(--container-color);
+  border: 2px solid var(--border-color);
+  padding: 0.8rem;
+  font-size: 2.4rem;
+  color: var(--first-color);
+  transition: border 0.3s, background-color 0.3s;
+}
