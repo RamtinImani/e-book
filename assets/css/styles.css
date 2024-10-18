@@ -388,12 +388,6 @@ img {
   margin-bottom: 0.8rem;
 }
 /*=============== FEATURED ===============*/
-/* .featured {
-} */
-/* .featured__container {
-}
-.featured__swiper {
-} */
 .featured__card {
   position: relative;
   text-align: center;
@@ -464,8 +458,6 @@ img {
   transition: border 0.3s, background-color 0.3s;
 }
 /*=============== DISCOUNT ===============*/
-/* .discount {
-} */
 .discount__container {
   row-gap: 5.6rem;
 }
@@ -493,10 +485,6 @@ img {
   transform: translateX(-1.5rem) rotate(10deg);
 }
 /*=============== NEW ===============*/
-/* .new {
-} */
-/* .new__container {
-} */
 .new__swiper:nth-child(1) {
   margin-bottom: 3.2rem;
 }
@@ -540,8 +528,6 @@ img {
   color: var(--first-color);
 }
 /*=============== JOIN ===============*/
-/* .join {
-} */
 .join__container {
   position: relative;
   padding-block: 4.8rem;
@@ -580,4 +566,31 @@ img {
 }
 .join__button {
   padding-block: 2rem;
+}
+/*=============== TESTIMONIAL ===============*/
+.testimonial__card {
+  text-align: center;
+  background-color: var(--container-color);
+  border: 2px solid var(--border-color);
+  padding: 3.2rem 4.8rem 4rem;
+  transition: border 0.4s, background-color 0.4s;
+}
+.testimonial__img {
+  width: 10rem;
+  border-radius: 50%;
+  margin: 0 auto 2.4rem;
+}
+.testimonial__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 1rem;
+}
+.testimonial__description {
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem;
+}
+.testimonial__stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--first-color);
 }
