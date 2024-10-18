@@ -594,3 +594,63 @@ img {
   align-items: center;
   color: var(--first-color);
 }
+/*=============== FOOTER ===============*/
+.footer {
+  padding-block: 6.4rem 9.6rem;
+}
+.footer__container {
+  row-gap: 4.8rem;
+}
+.footer__logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-family: var(--second-font);
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  margin-bottom: 2rem;
+}
+.footer__logo i {
+  font-size: 2rem;
+}
+.footer__data {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.8rem 3.2rem;
+}
+.footer__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 2rem;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.footer__link {
+  color: var(--text-color);
+  transition: color 0.3s;
+}
+.footer__link:hover {
+  color: var(--first-color);
+}
+.footer__info {
+  font-style: normal;
+}
+.footer__social {
+  display: flex;
+  column-gap: 2rem;
+}
+.footer__social--link {
+  font-size: 2rem;
+  color: var(--first-color);
+  transition: transform 0.4s;
+}
+.footer__social--link:hover {
+  transform: translateY(-0.25rem);
+}
+.footer__copy {
+  display: block;
+  margin-top: 8rem;
+  text-align: center;
+  font-size: var(--small-font-size);
+}
