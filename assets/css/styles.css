@@ -667,3 +667,26 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background-color: hsl(230, 16%, 55%);
 }
+/*=============== SCROLL UP ===============*/
+.scrollup {
+  display: inline-flex;
+  position: fixed;
+  right: 2rem;
+  bottom: -50%;
+  background-color: var(--container-color);
+  box-shadow: 0px 2px 8px hsla(0, 0%, 0%, 0.1);
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  color: var(--title-color);
+  transition: bottom 0.4s, transform 0.4s, background-color 0.4s;
+  z-index: var(--z-tooltip);
+}
+.scrollup:hover {
+  transform: translateY(-0.25rem);
+}
+
+/* Show Scroll Up */
+.show-scroll {
+  bottom: 10rem;
+}
