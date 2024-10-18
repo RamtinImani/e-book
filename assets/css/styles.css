@@ -741,3 +741,71 @@ body.dark-theme {
     row-gap: 3.2rem;
   }
 }
+/* For medium devices */
+@media screen and (min-width: 450px) {
+  .featured__card {
+    width: 29rem;
+  }
+  .new__card {
+    width: 39rem;
+  }
+  .testimonial__card {
+    width: 32rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .search__form {
+    width: 50rem;
+    margin-inline: auto;
+  }
+  .login__form {
+    width: 40rem;
+    justify-self: center;
+  }
+  .search__close,
+  .login__close {
+    top: 6.4rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    text-align: center;
+  }
+  .nav__menu {
+    width: 40rem;
+    margin-inline: auto;
+  }
+  .home__container,
+  .discount__container {
+    grid-template-columns: 42rem;
+    justify-content: center;
+  }
+  .join__form {
+    width: 34rem;
+    justify-self: center;
+  }
+  .footer__data {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home__container,
+  .discount__container {
+    grid-template-columns: 58rem;
+    justify-content: center;
+  }
+  .home__data {
+    width: 42rem;
+    justify-self: center;
+  }
+  .services__container {
+    grid-template-columns: repeat(3, max-content);
+    justify-content: center;
+    column-gap: 8rem;
+  }
+  .footer__container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+  }
+}
