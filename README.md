@@ -11,4 +11,7 @@
 
 ### 🪄 `Made With 🤍`
 ---
+## 🚀 Live Demo:
+🔗 [View Demo](https://ramtinimani.github.io/e-book/)
+## 📸 Preview Image:
 ![preview image](/preview.png)
